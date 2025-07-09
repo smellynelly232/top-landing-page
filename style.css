@@ -1,23 +1,55 @@
-.header
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 2px solid red; /* For debugging purposes, remove in production */
+}
+html, body {
+    margin: 0;
+    padding: 0; 
+    height: 100%;
+}
 .top
+{
+    background-color: #1f2937;
+    height: 300px;
+    width: 100vw;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.topimage {
+    width: 400px;
+    height: 200px;
+    
+}
+
 
 .toptext
+{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 400px;
+    margin: 0;
+    padding: 12px;
+    text-align: left;
+}
 
+.toptext h1{
+    font-size: 48px;
+    color: ;
+}
 .upmid
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
 
-.box1
-
-.box2
-
-.box3
-
-.box4
-
-.lowmid
-
-.quote
-
-.bottom
-
-.cta
